@@ -198,10 +198,9 @@ main {
 }
 
 .network-imgs img {
-    width: 48px;
-    height: 48px;
+    height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 0;
 }
 
 .network p {
@@ -218,6 +217,7 @@ main {
     margin: 40px 0 0 0;
     padding: 30px 60px;
     border-radius: 8px;
+    gap: 200px;
 }
 
 .main-links h4 {
@@ -305,6 +305,11 @@ footer {
     gap: 40px;
     justify-content: center;
     margin-bottom: 18px;
+    gap: 100px;
+}
+
+.footer-block > div {
+    flex: 1;
 }
 
 .footer-block h5 {
